@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  height: 8vh;
+  background-color: $colorDark;
+  color: $lightText;
+  .material-icons.md-60,
+  .material-icons {
+    font-size: 35px;
+    color: $lightText;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+}
